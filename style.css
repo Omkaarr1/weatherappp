@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://www.wallpaperup.com/uploads/wallpapers/2015/06/13/720956/7f5d0cc73d833390bfab526fdaaaf47b.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.name{
+    width: 360px;
+    text-align: center;
+    padding-bottom: 15px;
+    color: white;
+    font-family: cursive;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 360px;
+    margin: 5em;
+    padding: 1em;
+    border-radius: 20px;
+    background: rgb(253, 253, 253);
+    background: #030000d0;
+    opacity: 0.9;
+    color: rgb(255, 255, 255);
+}
+
+.input > input {
+    border: none;
+    outline: none;
+    padding: 0.3rem;
+    border-radius: 15px;
+    color: rgb(253, 253, 253);
+    background: #f5f1f12b;
+    font-family: cursive;
+}
+
+button.button {
+    border: none;
+    width: 29px;
+    padding: 6px;
+    border-radius: 20px;
+    background: #eee8e82b;
+    color: rgb(245, 238, 238);
+    font-family: cursive;
+    transition: (.5s);
+}
+
+button.button:focus{
+    outline:none;
+}
+
+button.button:hover{
+    border: 2px solid rgb(122, 112, 112) 
+}
+
+.displayWeather{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
